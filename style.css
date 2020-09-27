@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+.main{
+    background: rgb(23, 41, 202);
+    padding-bottom: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    
+}
+ul{
+    display: flex;
+}
+ul li{
+    display: block;
+  margin-left: 15px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+.content{
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-between;
+    
+}
+.con-left{
+    width: 60%;
+    padding: 100px 0;
+}
+.con-right{
+    width: 30%;
+}
+#papsi-img{
+    width: 251px;
+}
+.con-left h1{
+    color: #fff;
+    font-size:40px;
+}
+.con-left p{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.footer{
+    text-align: center;
+}
+.footer img{
+    width: 50px;
+    height: 80px;
+
+}
+.footer img:hover{
+    transition: .8s;
+    transform:translateY(-10px);
+
+}
